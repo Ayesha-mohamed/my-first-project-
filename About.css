@@ -375,3 +375,172 @@ body{
     }
 
 }
+
+
+@media (max-width: 390px) {
+    /* Header Styles */
+    .header-p {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .header-p img {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .header-p h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .header-p ul {
+        display: none; /* Hide desktop nav */
+    }
+    
+    .header-p i.fa-bars {
+        display: block !important;
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    
+    .header-p div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .header-p button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        margin-right: 0 !important;
+    }
+    
+    /* Background Hero */
+    .bg {
+        height: auto;
+        min-height: 300px;
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+    
+    /* About Section */
+    .about-p {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    
+    .about-img img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .US {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .US h1 {
+        font-size: 28px;
+    }
+    
+    .US p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .US p br {
+        display: none;
+    }
+    
+    .read button {
+        margin: 20px auto 0;
+        width: 100%;
+        max-width: 200px;
+        display: block;
+    }
+    
+    /* Chanel Section */
+    .gadaal {
+        flex-direction: column;
+        padding: 0 15px;
+        gap: 20px;
+    }
+    
+    .gadaal-p img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .time {
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .time h1 {
+        font-size: 24px;
+    }
+    
+    .time p {
+        font-size: 16px;
+    }
+    
+    .time p br {
+        display: none;
+    }
+    
+    .time-p button {
+        margin: 20px auto 0;
+        width: 100%;
+        max-width: 200px;
+        display: block;
+    }
+    
+    /* Footer */
+    .footer-p {
+        height: auto;
+    }
+    
+    .end-img img {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto !important;
+    }
+    
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .Century {
+        text-align: center;
+    }
+    
+    .Century p br {
+        display: none;
+    }
+    
+    .Century i {
+        margin: 10px 5px;
+    }
+    
+    .Action {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .info, .com, .cont {
+        text-align: center;
+    }
+}

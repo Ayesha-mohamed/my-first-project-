@@ -382,3 +382,158 @@ body{
         margin-left: 0px;
     }
 }
+
+
+
+
+
+@media (max-width: 390px) {
+    /* Header Styles */
+    .header-p {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .header-p img {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .header-p h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .header-p ul {
+        display: none; /* Hide desktop nav */
+    }
+    
+    .header-p i.fa-bars {
+        display: block !important;
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    
+    .header-p div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .header-p button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        margin-right: 0 !important;
+    }
+    
+    /* Shop Intro */
+    .shop-p {
+        padding: 0 15px;
+    }
+    
+    .shop-p h2 {
+        font-size: 24px;
+    }
+    
+    .shop-p p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .shop-p p br {
+        display: none;
+    }
+    
+    /* Category Headers */
+    .Men h1, .women h1 {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+    
+    /* Product Grids */
+    .point-one, .women-p {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0;
+        padding: 0 15px;
+        align-items: center;
+    }
+    
+    .points, .crush {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .points img, .crush img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
+    
+    .points h3, .crush h3 {
+        font-size: 18px;
+    }
+    
+    .points button, .crush button {
+        width: 100%;
+        max-width: 200px;
+        margin: 10px auto !important;
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    /* Animations */
+    @keyframes anim {
+        from { transform: none; }
+        to { transform: none; }
+    }
+    
+    @keyframes anim1 {
+        from { transform: none; }
+        to { transform: none; }
+    }
+    
+    /* Footer */
+    .footer-p {
+        height: auto;
+    }
+    
+    .end-img img {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto !important;
+    }
+    
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .Century {
+        text-align: center;
+    }
+    
+    .Century p br {
+        display: none;
+    }
+    
+    .Century i {
+        margin: 10px 5px;
+    }
+    
+    .Action {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .info, .com, .cont {
+        text-align: center;
+    }
+}
