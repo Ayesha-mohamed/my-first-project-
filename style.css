@@ -9,9 +9,8 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 10px; 
-    
-   
 }
+
 .header-p button{
        background-color: #D4AF37;
     color:black;
