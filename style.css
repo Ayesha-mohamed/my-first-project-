@@ -652,6 +652,7 @@ padding: 5px 6px;
         font-size: 12px;
     }
 }
+/* // ipad */
 @media (min-width:451px) and (max-width:900px){
     .header-p button{
         display: none;
@@ -686,6 +687,7 @@ padding: 5px 6px;
 }
 
 
+/* // samsung */
 
 @media (max-width: 390px) {
     /* Header Styles */
@@ -921,3 +923,482 @@ padding: 5px 6px;
         to { transform: none; }
     }
 }
+
+/* //samsung 2  */
+@media(min-width:391px) and (max-width:500px){
+
+     .header-p {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .header-p img {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .header-p h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .header-p ul {
+        display: none; /* Hide desktop nav */
+    }
+    
+    .header-p i.fa-bars {
+        display: block !important;
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    
+    .header-p div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .header-p button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    /* Hero Section */
+    .section-2 {
+        height: auto;
+        min-height: 100vh;
+        background-size: cover;
+        padding: 20px 15px;
+    }
+    
+    .start-p {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .start h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .start h1 br {
+        display: none;
+    }
+    
+    .start button {
+        width: 100%;
+        max-width: 200px;
+        margin: 15px auto;
+    }
+    
+    .section-2 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px auto 0;
+    }
+    
+    /* Products Section */
+    .section-3 h1 {
+        font-size: 28px;
+    }
+    
+    .section-3 p {
+        padding: 0 15px;
+    }
+    
+    .section-3 p br {
+        display: none;
+    }
+    
+    .section-4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .mid-1 {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .mid-1 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .mid-1 button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    /* Best Sellers */
+    .section-6 {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .img-7 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .story {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .story p br {
+        display: none;
+    }
+    
+    .story button {
+        margin: 15px auto;
+    }
+    
+    /* Reviews */
+    .section-8 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        gap: 20px;
+    }
+    
+    .box {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .box-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-2 p {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .box-2 p br {
+        display: none;
+    }
+    
+    /* Why Choose Us */
+    .section-10 {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .end-p {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .end {
+        text-align: center;
+    }
+    
+    .last img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px auto 0;
+    }
+    
+    /* Footer */
+    .footer-p {
+        height: auto;
+    }
+    
+    .end-img img {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+    }
+    
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .Century {
+        text-align: center;
+    }
+    
+    .Century p br {
+        display: none;
+    }
+    
+    .Century i {
+        margin: 10px 5px;
+    }
+    
+    .Action {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .info, .com, .cont {
+        text-align: center;
+    }
+    
+    /* Hide animations on mobile */
+    @keyframes anim1 {
+        from { transform: none; }
+        to { transform: none; }
+    }
+}
+
+
+/* // iphone */
+@media (min-width: 391px) and (max-width: 450px){
+      .header-p {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .header-p img {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .header-p h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .header-p ul {
+        display: none; /* Hide desktop nav */
+    }
+    
+    .header-p i.fa-bars {
+        display: block !important;
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    
+    .header-p div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .header-p button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        
+    }
+    
+    /* Hero Section */
+    .section-2 {
+        height: auto;
+        min-height: 100vh;
+        background-size: cover;
+        padding: 20px 15px;
+    }
+    
+    .start-p {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .start h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .start h1 br {
+        display: none;
+    }
+    
+    .start button {
+        width: 100%;
+        max-width: 200px;
+        margin: 15px auto;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    
+    .section-2 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px auto 0;
+    }
+    
+    /* Products Section */
+    .section-3 h1 {
+        font-size: 28px;
+    }
+    
+    .section-3 p {
+        padding: 0 15px;
+    }
+    
+    .section-3 p br {
+        display: none;
+    }
+    
+    .section-4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .mid-1 {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .mid-1 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .mid-1 button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    /* Best Sellers */
+    .section-6 {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .img-7 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        margin-left: 60px;
+    }
+    
+    .story {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .story p br {
+        display: none;
+    }
+    
+    .story button {
+        margin: 15px auto;
+    }
+    
+    /* Reviews */
+    .section-8 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        gap: 20px;
+    }
+    
+    .box {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .box-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-2 p {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .box-2 p br {
+        display: none;
+    }
+    
+    /* Why Choose Us */
+    .section-10 {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .end-p {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .end {
+        text-align: center;
+    }
+    
+    .last img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px auto 0;
+        margin-left: 60px;
+    }
+    
+    /* Footer */
+    .footer-p {
+        height: auto;
+    }
+    
+    .end-img img {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+        margin-left: 130px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .Century {
+        text-align: center;
+    }
+    
+    .Century p br {
+        display: none;
+    }
+    
+    .Century i {
+        margin: 10px 5px;
+    }
+    
+    .Action {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .info, .com, .cont {
+        text-align: center;
+    }
+    
+    /* Hide animations on mobile */
+    @keyframes anim1 {
+        from { transform: none; }
+        to { transform: none; }
+    }
+}
+
